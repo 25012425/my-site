@@ -1,4 +1,5 @@
 import React from 'react'
+import ChatModal from '../components/ChatModal'
 
 function Footer() {
   return (
@@ -35,6 +36,11 @@ function Footer() {
               </svg>
             </a>
           </nav>
+        </div>
+        <div className='static right-0 **:not-last:h-1.5 w-3xs z-40'></div>
+        <header className='bg-black'>실시간 채팅</header>
+        <div className='bg-black p-5'>
+        <ChatModal/>
         </div>
       </footer>
   )

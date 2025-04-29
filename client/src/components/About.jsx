@@ -4,7 +4,7 @@ function About() {
   return (
     <div className='flex justify-between items-center'>
       <div className="intro w-2xl">
-        <h1 className="text-5xl font-bold">Hi, I am Yeonghun,
+        <h1 className="text-5xl font-bold">Hi, I am Myeongsim,
         Frontend Web Developer</h1>
         <p className="py-6">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
